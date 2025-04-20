@@ -1,10 +1,10 @@
-package Experiment_8;
+// package Experiment_8;
 import java.util.Scanner;
-public class PasswordValidator {
+public class dPasswordValidator {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter password: ");
-        String password = scanner.nextLine().trim();
+        String password = sc.nextLine().trim();
         
         try {
             validatePassword(password);
@@ -12,6 +12,7 @@ public class PasswordValidator {
         } catch (Exception e) {
             System.out.println("Invalid Password: " + e.getMessage());
         }
+        sc.close();
     }
     public static void validatePassword(String password) throws Exception {
         if (password.length() < 8) {

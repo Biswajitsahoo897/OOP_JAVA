@@ -14,6 +14,7 @@ public class StringConcatenation {
         } else {
             System.out.println("Concatenated String: " + str1 + str2);
         }
+        sc.close();
     }
 }
 

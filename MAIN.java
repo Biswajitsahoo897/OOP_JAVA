@@ -9,5 +9,6 @@ public class MAIN {
         int b=80;
         System.out.println("Sum is "+(a+b));
         System.out.println("Hello World");
+        show();
     }
 }

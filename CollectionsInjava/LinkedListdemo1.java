@@ -8,7 +8,7 @@ public class LinkedListdemo1 {
         System.out.println(list1.size()); 
         //add the elements to the LinkedList 
         list1.add("a"); 
-        list1.add(10); 
+        list1.add(10);
         list1.add(10.6); 
         list1.addFirst("ratan"); 
         list1.addLast("anu"); 
